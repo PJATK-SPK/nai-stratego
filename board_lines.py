@@ -2,6 +2,24 @@ class BoardLines():
     def __init__(self, boardSize):
         self.size = boardSize
 
+    def get_player_lines(self, board, player):
+        result = []
+        for line in self.get_all():
+            if all([board[i] == player for i in line]):
+                result.append(line)
+        return result
+
+    def is_possible_to_make_a_line_for(self, board, player):
+        freeLines = self.get_free_lines_for(board, player)
+        return len(freeLines) > 0
+
+    def get_free_lines_for(self, board, player):
+        result = []
+        for line in self.get_all():
+            if all([board[i] == 0 or board[i] == player for i in line]):
+                result.append(line)
+        return result
+
     def get_all(self):
         return [
             self.__get_vertical_line(i) for i in range(self.size)
