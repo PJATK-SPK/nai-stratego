@@ -1,5 +1,11 @@
 class StrategoMap():
-    """ Class responsible for retrieving Stratego lines for a given board size. """
+    """ 
+    Class responsible for retrieving Stratego lines for a given board size. 
+
+    The board positions are numbered as follows:
+    1 2 3 4
+    5 .....
+    """
 
     def __init__(self, boardSize: int):
         self.size = boardSize
