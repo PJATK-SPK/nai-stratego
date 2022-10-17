@@ -16,7 +16,7 @@ class StrategoMap():
             self.__get_vertical_line(i) for i in range(self.size)
         ] + [
             self.__get_horizontal_line(i) for i in range(0, self.size ** 2, self.size)
-        ] + self.__get_diagonal_lines(4) + self.__get_anti_diagonal_line(4)
+        ] + self.__get_diagonal_lines() + self.__get_anti_diagonal_line()
 
     def __get_vertical_line(self, index: int) -> list:
         """ Returns single vertical line for a given board index. """
