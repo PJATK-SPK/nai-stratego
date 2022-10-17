@@ -23,9 +23,10 @@ Have fun!
 ### How to run
 Please install:
 - Python
-- easyAI
-And then run this file in the console.
+- pip
+- easyAI (pip3 install -r requirments.txt)
+- run this file in the console. (python3 main.py)
 
 ### Authors: 
-- Sandro (s20600)
-- Marcel (s21167)
+- Sandro Sobczynski (s20600)
+- Marcel Pankanin (s21167)

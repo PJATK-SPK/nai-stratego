@@ -1,3 +1,5 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
+
 from stratego_map import StrategoMap
 
 

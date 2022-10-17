@@ -1,3 +1,4 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
 from easyAI import TwoPlayerGame
 from config import BOARD_SIZE
 from stratego_map_manager import StrategoMapManager

@@ -1,3 +1,4 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
 class StrategoMap():
     """
     Class responsible for retrieving Stratego lines for a given board size.

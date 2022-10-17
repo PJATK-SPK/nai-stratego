@@ -1,3 +1,4 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
 from easyAI.Player import Human_Player
 from easyAI import AI_Player, Negamax
 from stratego import Stratego
