@@ -21,8 +21,28 @@ class Proposals():
         to_not_watch = []
         for rating in ratings:
             if rating['user'] != user:
-                if rating['rating'] >= 5 and rating['movie'] not in watched_movies:
+                avg_rating = self.get_avg_rating(
+                    rating['movie'], ratings)
+
+                if avg_rating >= 5 and rating['movie'] not in watched_movies and rating['movie'] not in to_watch:
                     to_watch.append(rating['movie'])
-                else:
+                elif avg_rating < 5 and rating['movie'] not in to_not_watch:
                     to_not_watch.append(rating['movie'])
         return to_watch, to_not_watch
+
+    def get_avg_rating(self, movie: str, ratings: list) -> float:
+        """ 
+            Parameters:
+            movie (str): Movie name
+            ratings (list): List of { user, movie, rating }
+
+            Returns: 
+            float: Average rating
+        """
+        sum = 0
+        count = 0
+        for rating in ratings:
+            if rating['movie'] == movie:
+                sum += rating['rating']
+                count += 1
+        return sum / count

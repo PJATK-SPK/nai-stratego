@@ -11,7 +11,7 @@ class RatingsParser():
             Parameters:
             filename (str): file name
 
-            Returns:
+            Returns: list of all raw, parsed data
             list: List of { user, movie, rating }
         """
         text = FileReader().read(filename)
