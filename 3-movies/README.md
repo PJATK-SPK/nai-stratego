@@ -6,7 +6,8 @@ Currently, based on the collection of videos and user ratings, we are not able t
 
 ### Resolution:
 ```
-This simple movie suggestion engine processes the collected data and then informs the user what movies he should watch and what movies he should not watch (based on ratings)
+This simple movie suggestion engine processes the collected data and then informs the user what movies he should watch and what movies he should not watch (based on ratings).
+Each movie is rated by the user and the engine suggests the user to watch the movies that have the highest average rating.
 ```
 
 ### How to run
