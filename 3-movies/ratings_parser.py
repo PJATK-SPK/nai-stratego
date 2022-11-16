@@ -1,3 +1,5 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
+
 from file_reader import FileReader
 
 
@@ -5,7 +7,11 @@ class RatingsParser():
     """ Class reponsible for parsing ratings data. """
 
     def parse(self, filename: str) -> list:
-        """ Returns:
+        """ 
+            Parameters:
+            filename (str): file name
+
+            Returns:
             list: List of { user, movie, rating }
         """
         text = FileReader().read(filename)

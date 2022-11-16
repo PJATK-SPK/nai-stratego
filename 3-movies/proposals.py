@@ -1,6 +1,7 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
 
 class Proposals():
-    """ Class reponsible for reading file data. """
+    """ Class reponsible for analyzing readed data. """
 
     def get(self, user: str, ratings: list) -> list:
         """ 

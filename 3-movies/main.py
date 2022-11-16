@@ -1,12 +1,14 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
+
 import argparse
 import random
 from ratings_parser import RatingsParser
 from proposals import Proposals
 
 
-def build_arg_parser() -> argparse.ArgumentParser:
+def get_args() -> argparse.ArgumentParser:
     """ Returns:
-        List with arguments.
+        List with arguments
     """
     parser = argparse.ArgumentParser(
         description='Get movies propositions for specified user.')
@@ -15,8 +17,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 if __name__ == "__main__":
-    # user = build_arg_parser().parse_args().user
-    user = 'Sandro Sobczynski'
+    user = get_args().parse_args().user
     ratings = RatingsParser().parse('ratings.csv')
 
     users = map(lambda x: x['user'], ratings)
