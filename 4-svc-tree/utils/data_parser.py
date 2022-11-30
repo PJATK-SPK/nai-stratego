@@ -30,4 +30,7 @@ class DataParser():
             x.append(parts[:-1])
             y.append(parts[-1])
 
+        x = [[float(x) for x in row] for row in x]
+        y = [int(y) for y in y]
+
         return x, y
