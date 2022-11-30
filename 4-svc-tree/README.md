@@ -10,8 +10,8 @@ Decision tree is a decision support tool that uses a tree-like model of decision
 Please install:
 - Python
 - pip with packages: numpy, mlxtend, scikit-learn, matplotlib
-- for SVC execute `python3 svc/main.py`, 
-- for Decision tree execute `python3 tree/main.py`, 
+- for SVC execute `python3 svc.py`, 
+- for Decision tree execute `python3 tree.py`, 
 
 ### Authors: 
 - Sandro Sobczynski (s20600)
