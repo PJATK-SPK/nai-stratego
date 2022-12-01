@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def execute(filename, c, gamma):
     """
-        Execute SVC algorithm.
+        Execute SVM algorithm.
 
         Parameters:
         filename (str): dataset file name
