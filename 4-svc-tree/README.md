@@ -1,3 +1,5 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
+
 # SVM & Decision tree
 ### Problem & resolution:
 ```
@@ -43,7 +45,7 @@ Human subjects classification and recognition performance:
 ### How to run
 Please install:
 - Python
-- pip with packages: numpy, mlxtend, scikit-learn, matplotlib
+- pip3 install -r requirments.txt
 - for SVC execute `python3 svm.py`, 
 - for Decision tree execute `python3 tree.py`, 
 

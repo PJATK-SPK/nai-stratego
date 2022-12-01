@@ -1,3 +1,4 @@
+# Authors: Sandro Sobczynski, Marcel Pankanin
 ## Data source
 
 #### glass.csv
