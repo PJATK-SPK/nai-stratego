@@ -8,9 +8,6 @@ fashion_mnist_data = tf.keras.datasets.fashion_mnist
 (fashion_train_images, fashion_train_labels), (
     fashion_test_images, fashion_test_labels) = fashion_mnist_data.load_data()
 
-fashion_train_images = fashion_train_images.reshape(fashion_train_images.shape[0], 28, 28, 1)
-fashion_test_images = fashion_test_images.reshape(fashion_test_images.shape[0], 28, 28, 1)
-
 fashion_label_names = ["T-shirt/top", "Trouser", "Pullover", "Dress", "Coat", "Sandal", "Shirt", "Sneaker", "Bag",
                        "Ankle boot"]
 

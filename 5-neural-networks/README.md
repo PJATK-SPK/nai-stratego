@@ -58,6 +58,19 @@ than another. Between them, the training batches contain exactly 5000 images fro
 9 Truck
 ```
 
+### Neural network vs Decision tree:
+```
+As below screenshot shows neural network was better just after second epoch
+```
+![Alt text](screenshots/comparision.png?raw=true "Comparison")
+
+### Two network sizes:
+![Alt text](screenshots/twonetworksizes.png?raw=true "Two network sizes")
+
+
+### Confusion matrix (fashion model):
+![Alt text](screenshots/confusion_matrix.png?raw=true "Confusion matrix")
+
 ### How to run
 Please install:
 - Python
