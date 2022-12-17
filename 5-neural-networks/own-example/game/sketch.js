@@ -1,3 +1,5 @@
+// Authors: Sandro Sobczynski, Marcel Pankanin
+
 const groundHeight = 50;
 const playersAmount = 5;
 

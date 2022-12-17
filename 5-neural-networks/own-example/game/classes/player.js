@@ -1,3 +1,5 @@
+// Authors: Sandro Sobczynski, Marcel Pankanin
+
 class Player {
 
     constructor(brain) {
