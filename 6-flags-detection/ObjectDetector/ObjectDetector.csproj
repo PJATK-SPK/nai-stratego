@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Company>hasto</Company>
+		<Copyright>hasto© - 2022</Copyright>
+		<Authors>hasto</Authors>
+		<Product>Deskwork</Product>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.ML" Version="2.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Core\Core.csproj" />
+	</ItemGroup>
+</Project>

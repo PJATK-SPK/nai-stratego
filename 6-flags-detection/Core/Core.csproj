@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.5.0" />
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.ML" Version="2.0.0" />
+		<PackageReference Include="Microsoft.ML.ImageAnalytics" Version="2.0.0" />
+		<PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.13.1" />
+		<PackageReference Include="Microsoft.ML.OnnxTransformer" Version="2.0.0" />
+		<PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+		<PackageReference Include="AForge.Imaging" Version="2.2.5" />
+	</ItemGroup>
+
+</Project>

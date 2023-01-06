@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\TrainingModels\FlagsDetection\FlagsDetection.zip" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Resources\TrainingModels\FlagsDetection\FlagsDetection.zip">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ObjectDetector\ObjectDetector.csproj" />
+	</ItemGroup>
+
+</Project>
