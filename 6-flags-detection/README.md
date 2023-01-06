@@ -3,7 +3,11 @@
 # Flags detection
 ### Problem & resolution:
 ```
-.NET WinForms program that uses ML.NET to detect three flags: Polish, Ukrainian and Russian using a webcam. The problem that this program addresses is the need to accurately identify these flags in real-time video. To solve this problem, the program utilizes machine learning algorithms to analyze frames from the webcam in order to identify the flags. The program is able to accurately detect the flags and display the results in real-time on the user interface.
+.NET WinForms program that uses ML.NET to detect three flags: Polish, Ukrainian and Russian using a webcam. 
+The problem that this program addresses is the need to accurately identify these flags in real-time video. 
+To solve this problem, the program utilizes machine learning algorithms 
+to analyze frames from the webcam in order to identify the flags. 
+The program is able to accurately detect the flags and display the results in real-time on the user interface.
 
 Each detected flag is drawn on analysis frame. Aditionally the program displays the score and position of the flag.
 ```
