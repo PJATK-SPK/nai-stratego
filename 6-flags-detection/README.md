@@ -17,8 +17,11 @@ Each detected flag is drawn on analysis frame. Aditionally the program displays 
 
 ### Flags dataset:
 ```
-TODO: Marcel -> Opis + link
+To train our model we prepared 100+ photos with Polish, Ukrainian and Russian flags. Photos was later on tagged with usage. 
+of VOTT. To increaase accuraccy we tried to include photos where there are different flags, and photos where there are more
+than one flags needed to be recognized.
 ```
+[Google drive with dataset](https://drive.google.com/drive/folders/1ZhsT9sr2UM_Znh3MuHO3zD3RltBrlID7?usp=sharing)
 
 ### Libraries
 - ML.NET
