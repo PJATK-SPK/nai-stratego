@@ -1,0 +1,68 @@
+﻿{
+  "Scenario": "ObjectDetection",
+  "DataSource": {
+    "Type": "Vott",
+    "Version": 1,
+    "FilePath": "D:\\Datasets\\emulator-window-detection\\vott-json-export\\FlagsDetection-export.json"
+  },
+  "Environment": {
+    "Type": "Azure",
+    "Version": 1,
+    "SubscriptionID": "6f9d97a4-2be2-4cc2-b7e4-3f3e204b72fc",
+    "ResourceGroupName": "StudentResourceGroup",
+    "WorkspaceName": "StudentWorkspace",
+    "ComputeName": "NC6",
+    "Location": "germanywestcentral",
+    "ExperimentName": "ObjectDetection"
+  },
+  "RunHistory": {
+    "Version": 2,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "fasterrcnn-resnet50-fpn",
+        "Score": 1.0,
+        "RuntimeInSeconds": 1212.8868746,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2",
+          "e0": {
+            "OutputColumnName": "input1",
+            "InputColumnName": "input1",
+            "ImageHeight": 600,
+            "ImageWidth": 800,
+            "CropAnchor": "Center",
+            "Resizing": "Fill"
+          },
+          "e1": {
+            "OutputColumnName": "input1",
+            "InputColumnName": "input1",
+            "ColorsToExtract": "Rgb",
+            "OrderOfExtraction": "ARGB",
+            "OutputAsFloatArray": true
+          },
+          "e2": {
+            "ModelFile": "C:\\Users\\hasto\\Documents\\repositories\\deskwork\\ObjectDetector\\TrainingModels\\EmulatorWindow\\FlagsDetection.onnx",
+            "FallbackToCpu": true
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ResizeImages",
+      "e1": "ExtractPixels",
+      "e2": "ApplyOnnxModel"
+    },
+    "Schema": "e0 * e1 * e2",
+    "MetricName": "mean_average_precision"
+  },
+  "Type": "TrainingConfig",
+  "Version": 3,
+  "TrainingOption": {
+    "Version": 0,
+    "Type": "DefaultTrainingOption",
+    "TrainingTime": 2147483647,
+    "Seed": 0
+  }
+}
