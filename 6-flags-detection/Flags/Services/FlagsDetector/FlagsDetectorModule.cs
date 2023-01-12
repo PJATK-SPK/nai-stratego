@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Autofac;
 using Core.Autofac;
 
 namespace Flags.Services.FlagsDetector

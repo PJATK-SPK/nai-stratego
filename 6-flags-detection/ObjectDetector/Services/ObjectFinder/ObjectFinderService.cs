@@ -1,4 +1,6 @@
-﻿using ObjectDetector.Extensions;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using ObjectDetector.Extensions;
 using ObjectDetector.Models;
 using System.Drawing;
 

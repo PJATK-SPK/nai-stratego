@@ -1,4 +1,6 @@
-﻿using Flags.Resources.TrainingModels.FlagsDetection;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Flags.Resources.TrainingModels.FlagsDetection;
 using Microsoft.ML.Data;
 using ObjectDetector.Models;
 

@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Autofac;
 
 namespace Core.Autofac
 {

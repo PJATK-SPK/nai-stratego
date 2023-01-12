@@ -1,4 +1,6 @@
-﻿using Core.Extensions;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Core.Extensions;
 using ObjectDetector.Services.ObjectFinder;
 using System.Drawing;
 

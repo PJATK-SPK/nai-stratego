@@ -1,4 +1,6 @@
-﻿using AForge.Imaging;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using AForge.Imaging;
 using Core.Models;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;

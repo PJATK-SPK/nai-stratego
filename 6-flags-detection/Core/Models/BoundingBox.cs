@@ -1,4 +1,6 @@
-﻿namespace Core.Models
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+namespace Core.Models
 {
     /// <summary>
     /// Bounding box class (left-up position + width/height)

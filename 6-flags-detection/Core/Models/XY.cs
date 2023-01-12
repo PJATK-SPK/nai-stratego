@@ -1,4 +1,6 @@
-﻿using System.Runtime.InteropServices;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using System.Runtime.InteropServices;
 
 namespace Core.Models
 {

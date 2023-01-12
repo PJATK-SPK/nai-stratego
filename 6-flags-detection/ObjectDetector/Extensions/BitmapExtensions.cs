@@ -1,4 +1,6 @@
-﻿using Microsoft.ML.Data;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Microsoft.ML.Data;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;

@@ -1,4 +1,6 @@
-﻿using Microsoft.ML.Data;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Microsoft.ML.Data;
 using ObjectDetector.Models;
 
 namespace ObjectDetector.Services.ObjectFinder

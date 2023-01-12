@@ -1,4 +1,6 @@
-﻿using Autofac;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Autofac;
 using Flags;
 
 public static class UsedModules

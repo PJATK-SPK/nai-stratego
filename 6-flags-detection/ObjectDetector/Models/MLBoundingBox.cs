@@ -1,4 +1,6 @@
-﻿using Core.Models;
+﻿// Authors: Sandro Sobczynski, Marcel Pankanin
+
+using Core.Models;
 
 namespace ObjectDetector.Models
 {
