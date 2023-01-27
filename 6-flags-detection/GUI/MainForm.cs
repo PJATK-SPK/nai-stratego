@@ -41,6 +41,17 @@ public partial class MainForm : Form
         comboBoxCamera.SelectedIndex = 0;
         comboBoxCamera.DropDownStyle = ComboBoxStyle.DropDownList;
         labelState.Text = "Stopped";
+
+        // Aktualnie predykcja trwa 1s. Oto co ChatGPT doradzi³ aby to przyœpieszyæ:
+        // 1. Pobierz i zainstaluj odpowiedni¹ wersjê NVIDIA TensorRT na swoim komputerze.
+        // 2. W swoim projekcie C# ML.NET dodaæ odwo³anie do biblioteki NVIDIA TensorRT.
+        // 3. Zmieniæ kod tworz¹cy silnik predykcji na kod tworz¹cy silnik TensorRT. Przyk³ad kodu:
+        //
+        //    var mlContext = new MLContext();
+        //    var mlModel = mlContext.Model.Load(MyModelZipPath, out var _);
+        //    var engine = mlContext.Model.CreatePredictionEngine<ModelInput, ModelOutput>(mlModel, device: TensorRTDevice.Gpu);
+        //
+        // 4. Nale¿y pamiêtaæ, ¿e TensorRT wymaga, aby wszystkie dane wejœciowe i wyjœciowe by³y typu float, wiêc jeœli twoje dane wejœciowe lub wyjœciowe s¹ innego typu, bêdziesz musia³ je zmieniæ.
     }
 
     /// <summary>
